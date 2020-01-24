@@ -1,0 +1,1 @@
+﻿Get-WmiObject Win32_Share -computerName SERVERNAME | Select Name, Caption, Path | Export-csv "c:\SERVERNAME.csv" -NoTypeInformation

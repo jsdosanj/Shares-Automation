@@ -1,0 +1,1 @@
+﻿Get-ADGroup -Filter * -SearchBase "OU=SPECIFICOU,OU=TOPLEVELOU,DC=admnet,DC=oakland,DC=edu" | Select-Object Name | sort -property Name | Out-File C:\SPECIFICOU.csv

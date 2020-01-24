@@ -1,0 +1,1 @@
+﻿Get-ADGroupMember "NAMEOFGROUP" | Select-Object Name, SAMAccountName | sort -property Name | Out-File C:\NAMEOFGROUP.csv
